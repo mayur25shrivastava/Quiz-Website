@@ -1,0 +1,133 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Anek+Odia:wght@200&family=Playfair+Display:ital,wght@1,500&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap'); */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Anek Odia', sans-serif; */
+    /* font-family: 'Grape Nuts', cursive; */
+    /* font-weight: 300; */
+}
+
+body{
+    background-image: url('bg.jpg');
+
+    
+}
+
+
+.mainhed{
+    color: white;
+    text-align: center;
+    margin-top: 45px;
+    font-size: 25px;
+    box-shadow: 0px 10px 34px rgba(255, 255, 255, 0.84);
+
+}
+.main-div{
+    width: 100vw;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    /* background-color: rgb(204, 244, 116); */
+    
+}
+
+.inner-div{
+    width: 40vw;
+    background-image: url('bg2.jpg');
+    /* background-color: rgb(95, 236, 255); */
+    padding: 3rem 8rem;
+    border-radius: 1rem;
+    /* box-shadow: 0 1rem 1rem -0.7rem rgba(0, 0, 0, 0.4); */
+    box-shadow: 10px 10px 54px rgba(207, 180, 228, 0.84);
+}
+
+.inner-div h2{
+    font-size: 2rem;
+    font-weight: 400;
+    margin-top: 1rem 0 4rem 0;
+    font-family: 'Grape Nuts', cursive;
+}
+.inner-div li{
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    list-style: none;
+}
+input{
+    cursor: pointer;
+}
+
+#btn2{
+    display: flex;
+    flex-direction: row;
+}
+
+#submit, .btn{
+    padding: .4rem 2rem;
+    /* padding: .7rem 2.5rem; */
+    outline: none;
+    font-size: 1.5rem;
+    font-weight: 400;
+    display: block;
+    margin: auto;
+    border: none;
+    text-transform: uppercase;
+    color: white;
+    background-color: rgb(40, 37, 231);
+    margin-top: 4rem;
+    cursor: pointer;
+    border-radius: 1.5rem;
+}
+#submit:hover{
+    color:  rgb(255, 255, 255);;
+    background-color: rgb(238, 52, 52);
+    box-shadow: 0px 10px 34px rgba(234, 81, 81, 0.84);
+    transition: 0.5s ease;
+}
+#next, .btn{
+    padding: .4rem 2rem;
+    outline: none;
+    font-size: 1.5rem;
+    font-weight: 400;
+    display: block;
+    margin: auto;
+    border: none;
+    text-transform: uppercase;
+    color: white;
+    background-color: rgb(89, 89, 255);
+    margin-top: 4rem;
+    cursor: pointer;
+    border-radius: 1.5rem;
+}
+#next:hover{
+    color:  rgb(255, 255, 255);;
+    background-color: rgb(20, 41, 160);
+    box-shadow: 0px 10px 24px rgba(95, 115, 247, 0.84);
+    transition: 0.5s ease;
+}
+
+
+#showScore{
+    background-color: #dfe6e9;
+    margin-top: 3rem 4rem;
+    box-shadow: 0 1rem 1rem -0.7rem rgba(0, 0, 0, 0.4);
+}
+
+#showScore h3{
+    font-size: 2.5rem;
+    text-align: center;
+}
+#showScore .btn{
+    margin-top: 2rem;
+    background-color: aquamarine;
+    color: #2d3436;
+}
+#showScore .btn:hover{
+
+    background-color: rgb(4, 228, 154);
+    color: #23b106;
+}
+.scoreArea{
+    display: none;
+}
